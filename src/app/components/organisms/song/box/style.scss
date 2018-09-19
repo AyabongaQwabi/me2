@@ -1,0 +1,58 @@
+.flexy{
+    display: flex;
+    display: row;
+}
+.songbox{
+    border-left: 5px solid #E0C79B;
+    background: #2B2D2D;
+    padding: 10px;
+    height: 15vh;
+    box-shadow: -1px 3px 10px 000000;
+}
+
+.fa-step-forward{
+    display:none !important;
+}
+.fa-step-backward{
+    display:none !important;
+}
+.info-and-control{
+    width: 260px !important;
+    .title {
+        padding: 0px !important;
+        margin: 10px 0px !important;
+        color: #ad9c7c !important;
+        font-size: .7em !important;
+        text-transform: uppercase !important;
+        font-weight: 100;
+    }
+    .artist {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+}
+.cover-container{
+    display:none !important;
+}
+.art-container{
+    width:130px;
+    overflow: hidden;
+    border-radius:5px;
+    margin-right: 20px;
+    img{
+        max-width: 100%;
+    }
+}
+.control-container{
+    margin-top:.6em !important;
+}
+.controls{
+    justify-content: center !important;
+}
+
+.progress{
+    background-color: #FFC107 !important;
+}
+.icon{
+    color: rgb(200, 176, 140) !important;
+}
