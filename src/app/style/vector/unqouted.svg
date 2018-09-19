@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="600px" viewBox="0 0 282 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.053%" y1="-38.735%" x2="33.786%" y2="95.07%" id="linearGradient-1">
+            <stop stop-color="#2D1F98" offset="0%"></stop>
+            <stop stop-color="#E64C4C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.053%" y1="-38.735%" x2="33.786%" y2="95.07%" id="linearGradient-2">
+            <stop stop-color="#E0C79B" offset="0%"></stop>
+            <stop stop-color="#E0C79B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.053%" y1="-38.735%" x2="33.7957373%" y2="94.6711954%" id="linearGradient-3">
+            <stop stop-color="#E0C79B" offset="0%"></stop>
+            <stop stop-color="#E0C79B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="User-Persona" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-80.000000, 0.000000)">
+            <rect id="Rectangle" fill="#2B2D2D" x="89" y="0" width="273" height="595"></rect>
+            <g id="e-link" opacity="0.35" transform="translate(287.238598, 541.661147) rotate(141.000000) translate(-287.238598, -541.661147) translate(122.238598, 452.661147)" fill="url(#linearGradient-2)" fill-rule="nonzero">
+                <path d="M0.128807339,177.015555 L143.594626,0.357793548 L329.497353,150.467987 C241.890983,141.838129 143.064063,145.959381 0.128807339,177.015555 Z" id="e"></path>
+            </g>
+            <g id="f-link" opacity="0.35" transform="translate(254.538712, 563.735168) rotate(141.000000) translate(-254.538712, -563.735168) translate(97.538712, 470.735168)" fill="url(#linearGradient-3)" fill-rule="nonzero">
+                <path d="M313.901442,175.808129 C303.062202,177.575181 293.108257,179.308594 282.648283,180.882477 C148.295072,201.094755 91.2109305,144.060832 0.437536042,118.790006 L96.6162385,0.357793548 L313.901442,175.808129 Z" id="f"></path>
+            </g>
+            <g id="g-link" opacity="0.35" transform="translate(291.177390, 556.090472) rotate(141.000000) translate(-291.177390, -556.090472) translate(140.177390, 480.090472)" fill="url(#linearGradient-2)" fill-rule="nonzero">
+                <path d="M301.347837,144.374794 C191.516068,84.6339742 97.813329,117.616219 0.434469201,151.26971 L123.05599,0.410290323 C244.565269,97.8274839 303.995544,145.815142 301.347837,144.374794 Z" id="g"></path>
+            </g>
+            <path d="M320.873993,615.234667 C283.342878,607.023978 258.929949,562.575379 184.799061,584.645981 C104.992651,608.406327 62.6692181,660.262927 17.419424,640.931446 L213.260206,482.342708 L320.873993,615.234667 Z" id="c" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.35" transform="translate(169.146709, 563.751896) scale(-1, -1) rotate(39.000000) translate(-169.146709, -563.751896) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="597px" viewBox="0 0 276 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.053%" y1="-38.735%" x2="33.786%" y2="95.07%" id="linearGradient-1">
+            <stop stop-color="#E0C79B" offset="0%"></stop>
+            <stop stop-color="#E0C79B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="User-Persona" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-130.000000, -132.000000)">
+            <rect id="Rectangle" fill="#2B2D2D" x="130.598087" y="133.328646" width="273" height="595"></rect>
+            <path d="M370.873993,220.234667 C333.342878,212.023978 308.929949,167.575379 234.799061,189.645981 C154.992651,213.406327 112.669218,265.262927 67.419424,245.931446 L263.260206,87.3427077 L370.873993,220.234667 Z" id="c" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.35" transform="translate(219.146709, 168.751896) scale(-1, 1) rotate(39.000000) translate(-219.146709, -168.751896) "></path>
+            <path d="M370.36045,247.361043 C315.212611,244.408778 243.922159,324.013561 179.112776,311.513807 C137.748048,303.535812 106.612114,226.749993 68.7874715,234.861492 L244.811032,92.3204237 L370.36045,247.361043 Z" id="g" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.35" transform="translate(219.573961, 202.583575) scale(-1, 1) rotate(39.000000) translate(-219.573961, -202.583575) "></path>
+            <path d="M329.869982,274.484674 C233.219919,306.406693 232.321789,258.946422 160.955104,286.65077 C111.957974,305.671319 80.9779695,252.903059 27.780612,267.609899 L154.400005,121.95095 L329.869982,274.484674 Z" id="f" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.349999994" transform="translate(178.825297, 206.395443) scale(-1, 1) rotate(49.000000) translate(-178.825297, -206.395443) "></path>
+            <path d="M309.863178,333.902744 C256.265284,333.788049 212.054616,300.515093 153.050571,253.075419 C126.285315,231.555961 62.2005962,278.417506 33.0236833,265.345145 L245.184531,93.5406778 L415.415697,303.75866 C377.272181,323.923674 342.088008,333.971702 309.863178,333.902744 Z" id="e" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.350000024" transform="translate(224.219690, 213.721887) scale(-1, 1) rotate(-321.000000) translate(-224.219690, -213.721887) "></path>
+        </g>
+    </g>
+</svg>
