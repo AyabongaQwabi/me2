@@ -3,11 +3,64 @@
     display: row;
 }
 .songbox{
-    border-left: 5px solid #E0C79B;
-    background: #2B2D2D;
+    border-left: 5px solid #da286f;
+    background: #28234c;
     padding: 10px;
     height: 15vh;
-    box-shadow: -1px 3px 10px 000000;
+    box-shadow: -1px 3px 10px #221e42;
+    border-radius:20px;
+    transform: scale(.7);
+    @media(max-width:768px){
+        margin: 20px;
+        width: 30vw;
+        border-radius:0px;
+        transform: scale(1);
+        background: #da286f;
+        height: 80%;
+        box-shadow: -1px 3px 10px #000;
+        border-radius:10px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .art-container{
+            width: 80%;
+            position: absolute;
+            z-index: -1;
+            filter: blur(30px);
+            display: none;
+        }
+        .player-container{
+            width: 100%;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            .time-and-volume{
+                display:none !important;
+            }
+            .music-info{
+                text-align: center !important;
+                margin-top: -10%;
+                margin-bottom: 10%;
+            }
+            .progress-container{
+                height: 5px !important;
+                width:60% !important;
+                margin-left:20%;
+            }
+            .control-container{
+                .mode-control{
+                    display: none !important;
+                }
+                justify-content: center !important;
+                margin-top: 10% !important;
+            }
+        }
+    }
+
 }
 
 .fa-step-forward{
@@ -18,18 +71,27 @@
 }
 .info-and-control{
     width: 260px !important;
+    @media(max-width:768px){
+        width: 75vw !important;
+    }
     .title {
         padding: 0px !important;
         margin: 10px 0px !important;
-        color: #ad9c7c !important;
+        color: #fff !important;
         font-size: .7em !important;
         text-transform: uppercase !important;
         font-weight: 100;
     }
     .artist {
+        color: #3eaebd !important;
         padding: 0px !important;
         margin: 0px !important;
+        font-weight: 900;
+        font-family: 'News Cycle', sans-serif;
     }
+}
+.progress-container{
+    height: 5px !important;
 }
 .cover-container{
     display:none !important;
@@ -51,8 +113,8 @@
 }
 
 .progress{
-    background-color: #FFC107 !important;
+    background-color: #da286f !important;
 }
 .icon{
-    color: rgb(200, 176, 140) !important;
+    color: #fff !important;
 }
