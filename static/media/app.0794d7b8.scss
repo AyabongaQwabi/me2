@@ -1,0 +1,45 @@
+body{
+  background:#221e42;
+  
+  font-family: 'News Cycle', sans-serif;;
+  filter: saturate(1.1);
+  overflow:hidden;
+  @media(max-width:768px){
+    overflow:scroll;
+    padding:35vh 20vw;
+    color:white;
+}
+}
+.App {
+  text-align: center;
+  background:url('./vector/back.svg') center center no-repeat;
+  background-size:cover;
+  @media(max-width:768px){
+    display:none;
+}
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

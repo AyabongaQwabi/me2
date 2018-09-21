@@ -1,0 +1,208 @@
+
+.master{
+    @media(max-width:768px){
+        flex-direction: column-reverse;
+    }
+}
+.music{
+    // background:url('../../../../style/vector/unquoted.svg') center center no-repeat;
+    background-size: cover;
+    // padding: 15px;
+    justify-content: center;
+    @media(max-width:768px){
+        width:auto;
+        flex-direction:row;
+        height: auto;
+        overflow:scroll;
+        justify-items: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.about{
+    @media(max-width:768px){
+        width:auto;
+        border-right:none;
+        padding-top: 10%;
+    }
+    color:#fff;
+    // background:url('../../../../style/vector/layer3.svg') center center no-repeat;
+    // box-shadow: inset 2px -2px 20px #000000;
+    background-size: cover;
+    border-right:10px solid #fff;
+    p{
+        padding:40px 100px;
+        font-weight: 100;
+        font-family: 'Bangers', cursive;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .area{
+        
+    }
+    .avatar{
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 120px;
+            height: 120px;
+            border-radius:50%;
+        }
+        .avatar-img{
+            border:10px solid #da286f;
+        }
+    }
+    .icons{
+        padding-top:5px;
+        padding-left:5px;
+        padding-right:12px;
+        background:#fff;
+        border-radius:10px;
+        a{
+            padding-left:10px;
+            width:40px;
+            border-radius:10px
+        }
+        img{
+            width: 30px;
+            height:40%;
+        }
+    }
+}
+.detail{
+    text-align: justify;
+    background: #f6f3e8;
+    box-shadow: inset 2px -2px 20px #000000;
+    overflow: hidden;
+    margin:-20px 0px;
+    z-index: 0;
+    align-self: start;
+    height: 200vh;
+    .info-sec{
+        justify-content: center;
+        padding: 30px;
+        h1,h2,h3,h4{
+            font-family: 'Boogaloo', cursive;
+            font-weight:900;
+            text-transform: uppercase;
+            color: #28234c;
+        }
+        p{
+            font-family: 'News Cycle', sans-serif;;
+            font-weight: 800;
+            color: #28234c;
+        }
+    }
+    .image-sec{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-items: center;
+        padding-top: 10%;
+        border-bottom: 16px solid#d8bb82;
+        background:#fff;
+        
+        overflow:hidden;
+        img{
+            width: 35%;
+            height: 80%;
+        }
+        h1{
+            font-family: 'News Cycle', sans-serif;
+            font-weight: 900;
+            color: #28234c;
+
+        }
+    }
+    .companies{
+        flex-direction: row;
+        padding: 20px;
+        img {
+            padding:30px;
+            display:flex;
+            flex:1;
+        } 
+    }
+}
+
+.video-react{
+    width:100vw !important;
+    height:110vh !important;
+    max-width: none !important;
+    margin-left: -450px;
+    margin-top: -60px;
+    @media(max-width:768px){
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    &:-moz-full-screen {
+        margin-left:0;
+        margin-top:0;
+        transition: all .25s ease-in-out
+      }
+      
+    &:-webkit-full-screen {
+        margin-left:0;
+        margin-top:0;
+        transition: all .25s ease-in-out
+    }
+    
+    &:fullscreen {
+        margin-left:0;
+        margin-top:0;
+        transition:  all .25s ease-in-out
+    }
+    .video-react-video{
+        height: 160vh !important;
+        top:-20vh!important;
+        transform:scale(1.2);
+        @media(max-width:768px){
+            height: 40vh !important;
+            top: 0vh!important;
+        }
+    }
+    .video-react-control-bar{
+        width: 25vw !important;
+        right: 0 !important;
+        left: 50px !important;
+        margin-left: 34vw;
+        margin-top: -10px;
+        top: 95vh;
+        background:#3eaebd !important;
+        border-radius: 10px;
+        color: #fff;
+        @media(max-width:768px){
+            width: 100vw !important;
+            right: 0 !important;
+            left: 0px !important;
+            margin-left:0vw;
+            margin-top: 0px;
+            top: 430px;
+            border-radius: 0px;
+        }
+    }
+    .video-react-load-progress{
+        background-color:orange!important;
+    }
+    .video-react-progress-holder{
+        background-color:orange!important;
+    }
+}
+.video-stopped-video{
+    transform: translateY(-105vh);
+    overflow: hidden;
+    transition: all .5s linear;
+    .video-react{
+        background: #da286f !important;
+    }
+}
+
+.video-stopped-info{
+    display:flex;
+    transition: all .5s linear;
+    transform: translateY(-105vh);
+    top:0;
+}
+.video-playing{
+    
+}
