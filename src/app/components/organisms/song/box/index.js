@@ -6,7 +6,7 @@ import * as R from 'ramda';
 
 export default class box extends Component{
     render(){
-        const { src, isFlexible, albumArt, title, artist } = this.props;
+        const { src, isFlexible, albumArt, title, artist, autoplay } = this.props;
         const boxClass = isFlexible ? 'songbox flexy' : 'songbox';
         const playlist = [
             {
@@ -20,7 +20,7 @@ export default class box extends Component{
                 <div className='art-container'>
                     <img className='album-art' src={albumArt}/>
                 </div>
-                <MusicPlayer playlist={playlist} />
+                <MusicPlayer playlist={playlist} autoplay={autoplay} />
             </div> 
         )
     }
