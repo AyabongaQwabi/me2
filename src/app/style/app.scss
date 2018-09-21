@@ -1,10 +1,17 @@
 body{
-  margin: 0px;
-  background: #2b2d2d;
-  font-family: 'Titillium Web', sans-serif;
+  background:#221e42;
+  
+  font-family: 'News Cycle', sans-serif;;
+  filter: saturate(1.1);
+  overflow:hidden;
+  @media(max-width:768px){
+    overflow:scroll;
+}
 }
 .App {
   text-align: center;
+  background:url('./vector/back.svg') center center no-repeat;
+  background-size:cover;
 }
 
 .App-logo {
